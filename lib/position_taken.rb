@@ -4,6 +4,7 @@ def position_taken?(board, index)
     return false
 end
 
-board[index_number] == true
-
+if board == index
+  return true
+end
 end
