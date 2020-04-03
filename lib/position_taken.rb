@@ -4,7 +4,7 @@ def position_taken?(board, index)
     return false
 end
 
-if !false #=> true
+if board[index] == !false #=> true
   return true
 
 end
